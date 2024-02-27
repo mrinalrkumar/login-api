@@ -10,6 +10,7 @@ export class AuthController {
   @HttpCode(HttpStatus.OK)
   @Post('login')
   async create(@Body() createAuthDto: CreateAuthDto) {
+    console.log(createAuthDto);
     return this.authService.signIn(createAuthDto);
   }
 }
