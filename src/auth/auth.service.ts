@@ -31,6 +31,13 @@ export class AuthService {
       },
       "data": {
         //add data here
+        "name": "John",
+        "userId": "1234A",
+        "dob": "1999-11-11T11:11:11.111Z",
+        "region": "North",
+        "employeeId": "E1231A",
+        "mobileNumber": "9999888877",
+        "emailId": "john@gmail.com"
       } 
     }
   }
